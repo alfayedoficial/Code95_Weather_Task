@@ -15,7 +15,7 @@ Create a simple mobile application that:
 ## Features
 - `Google Places`, using google places to find city and get lat and long
 - `Weather Widget`, display room data of city
-- `Chuck Logging`, Chuck is a simple in-app HTTP inspector for Android OkHttp clients, https://github.com/jgilfelt/chuck `com.readystatesoftware.chuck:library:1.1.0` check integration file  \weathertask\di\modules\NetworkModule , Method name is `provideOkHttpClient` , **Becarful this lib must be in Debug mode only**
+- `Chuck Logging`, Chuck is a simple in-app HTTP inspector for Android OkHttp clients, https://github.com/jgilfelt/chuck `com.readystatesoftware.chuck:library:1.1.0` check integration file  \weathertask\di\modules\NetworkModule , Method name is `provideOkHttpClient` , **Be Careful this lib must be in Debug mode only**
 
 ## API Key
 API keys is very secure data we can not publish it
