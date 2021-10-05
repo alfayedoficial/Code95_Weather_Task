@@ -1,18 +1,21 @@
-# Android Task - Jobs app
+# Code95 Android Task - Weather app
 
 [![Build CI](https://github.com/Kotlin-Android-Open-Source/MVI-Coroutines-Flow/actions/workflows/build.yml/badge.svg)](https://github.com/Kotlin-Android-Open-Source/MVI-Coroutines-Flow/actions/workflows/build.yml)
 
-## This is a prototype for a jobs app that’s main focus is to let users browse the jobs.
-*   The user is welcomed on the first screen with the message “Welcome to Mega Trust Jobs”. And start button.
-*   When clicking on the start button he should navigate to the jobs screen Which display a list of jobs, the list item should display the following info (company name, company logo, job title , Star icon if the user add the job to favorite ).
-*   When the user clicks on one of the jobs, he should navigate to the job details screen which displays the full details of the job (company name, company logo, job title, job type, job URL, company URL, job description).
-*   When the user refreshes the jobs screen, you should keep the favorite items saved locally. 
-*   You should save the remote data to the local using room db.
-*   You should return a listener from the local database to get immediate updates ( using flow ).
-*   The application should be implemented in Kotlin.
-*   You should use the following technologies.
-navigation component, MVI, livedata, coroutines, flow, koin for DI, room db, retrofit, Moshi for JSON serialization
+## Requirements
+Create a simple mobile application that:
+*   Utilize a weather API (http://openweathermap.org/API for example) to search for a city and get the forecast..
+*   You can add up to 5 cities to the main activity. You can also remove cities from the main activity.
+*   When clicking on one of the cities from the main activity, a 5 days forecast should be displayed.
+*   When clicking on one of the cities from the search box dropdown, a 5 days forecast should be displayed, while having the ability to include it in the main activity if it's not already included. 
+*   The main activity will have the 1st city added by default, which will be based on the GPS location. If the user doesn't give the location permissions, then the first default city will be London, UK.
+*   Save the data for offline usage.
+*   Extra bonus for creating a widget.
 
+## Features
+- `One Value Widget`, which shows one sensor value of a senseBox
+- `Plot Widget`, which shows a plot of one sensor value
+- 
 *   **[Download latest debug APK here] (https://github.com/alfayedoficial/MVI_Architecture_Design/blob/master/debug/app-debug.apk)**.
 
 
