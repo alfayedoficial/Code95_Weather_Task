@@ -15,7 +15,6 @@ Create a simple mobile application that:
 ## Features
 - `Google Places`, using google places to find city and get lat and long
 - `Weather Widget`, display room data of city
-- 
 
  ###### **Tecgnologes uses in it.**
  * Kotlin.
@@ -34,7 +33,7 @@ Create a simple mobile application that:
 * photoshop
 * Postman
 * Adobe XD
-* 
+
 *   **[Download latest debug APK here] (https://github.com/alfayedoficial/Code95_Weather_Task/blob/master/debug/app-debug.apk)**.
 
 
