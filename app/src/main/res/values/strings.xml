@@ -1,0 +1,16 @@
+<resources>
+	 <string name="app_name">Weather Task</string>
+	 <!-- TODO: Remove or change this placeholder text -->
+	 <string name="hello_blank_fragment">Hello blank fragment</string>
+	 <string name="search_city_weather">Search City Weather</string>
+	 <string name="search_for_a_city">Search for a city</string>
+	 <string name="dialog_please_waiting">Please Waiting</string>
+	 <string name="try_again_later">Try again later</string>
+	 <string name="no_internet_connection">No Internet Connection</string>
+	 <string name="turn_on_your_gps">Turn on your GPS</string>
+	 <string name="gps_is_disable_please_disable">Gps is disable please disable</string>
+	 <string name="accept_location_permissions">Accept location permissions</string>
+	 <string name="take_permissions">take permissions</string>
+	 <string name="temp_sym">℃</string>
+
+</resources>

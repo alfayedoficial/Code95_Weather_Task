@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+	 xmlns:app="http://schemas.android.com/apk/res-auto"
+	 xmlns:tools="http://schemas.android.com/tools"
+	 android:orientation="horizontal"
+	 android:background="@color/blackTran"
+	 android:layout_height="wrap_content"
+	 android:layout_margin="8dp"
+	 android:gravity="center"
+	 android:padding="8dp"
+	 xmlns:android="http://schemas.android.com/apk/res/android">
+
+	 <ImageView
+		  android:id="@+id/imgWeather"
+		  android:layout_width="44dp"
+		  android:layout_height="44dp"
+		  android:scaleType="centerCrop" />
+
+	 <LinearLayout
+		  android:layout_marginStart="8dp"
+		  android:layout_width="0dp"
+		  android:layout_weight="1"
+		  android:layout_height="wrap_content"
+		  android:orientation="vertical">
+
+		  <TextView
+			   android:id="@+id/tvCity"
+			   style="@style/FontSemiBold"
+			   android:layout_width="wrap_content"
+			   android:layout_height="wrap_content"
+			   android:textColor="@color/black"
+			   android:textSize="16sp"
+			   tools:text="Cairo" />
+
+		  <TextView
+			   android:id="@+id/tvDate"
+			   style="@style/FontRegular"
+			   android:layout_width="wrap_content"
+			   android:layout_height="wrap_content"
+			   android:layout_marginTop="2dp"
+			   android:ellipsize="end"
+			   android:visibility="gone"
+			   android:maxLines="1"
+			   android:textColor="@color/black"
+			   android:textSize="10sp"
+			   tools:ignore="SmallSp"
+			   tools:text="Fri, 7 Sep" />
+	 </LinearLayout>
+
+
+	 <LinearLayout
+		  android:layout_width="wrap_content"
+		  android:layout_height="wrap_content"
+		  android:orientation="horizontal">
+
+		  <TextView
+			   android:id="@+id/tvTemp"
+			   style="@style/FontSemiBold"
+			   android:layout_width="wrap_content"
+			   android:layout_height="wrap_content"
+			   android:textColor="@color/black"
+			   android:textSize="24sp"
+			   tools:text="28" />
+
+		  <TextView
+			   android:layout_marginBottom="10dp"
+			   android:id="@+id/text_label_degree"
+			   style="@style/FontRegular"
+			   android:layout_width="wrap_content"
+			   android:layout_height="wrap_content"
+			   android:layout_gravity="center"
+			   android:text="@string/temp_sym"
+			   android:textColor="@color/black"
+			   android:textSize="12sp" />
+
+	 </LinearLayout>
+
+	 <ImageButton
+		  android:id="@+id/reload"
+		  android:layout_width="wrap_content"
+		  android:layout_height="wrap_content"
+		  android:src="@drawable/ic_reload"
+		  android:background="@android:color/transparent"
+		  tools:ignore="ContentDescription" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+	 <!-- Base application theme. -->
+	 <style name="Theme.WeatherTask" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+		  <!-- Primary brand color. -->
+		  <item name="colorPrimary">@color/purple_700</item>
+		  <item name="colorPrimaryVariant">@color/purple_700</item>
+		  <item name="colorOnPrimary">@color/white</item>
+		  <!-- Secondary brand color. -->
+		  <item name="colorSecondary">@color/teal_200</item>
+		  <item name="colorSecondaryVariant">@color/teal_700</item>
+		  <item name="colorOnSecondary">@color/black</item>
+		  <!-- Status bar color. -->
+		  <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+		  <!-- Customize your theme here. -->
+	 </style>
+
+	 <style name="CustomCardViewStyle2" parent="@style/Widget.MaterialComponents.CardView">
+		  <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay2</item>
+	 </style>
+
+	 <style name="ShapeAppearanceOverlay2" parent="">
+		  <item name="cornerFamily">rounded</item>
+		  <item name="cornerSizeTopRight">0dp</item>
+		  <item name="cornerSizeTopLeft">0dp</item>
+		  <item name="cornerSizeBottomRight">30dp</item>
+		  <item name="cornerSizeBottomLeft">30dp</item>
+	 </style>
+
+	 <style name="FontSemiBold">
+		  <item name="fontFamily">@font/luxia_semi_bold_display</item>
+	 </style>
+
+	 <style name="FontRegular">
+		  <item name="fontFamily">@font/popins_regular</item>
+	 </style>
+
+	 <style name="progressBarStyle">
+		  <item name="colorAccent">@color/purple_700</item> <!-- Whatever color you want-->
+	 </style>
+
+	 <style name="SearchViewStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+		  <item name="android:drawableLeft">@drawable/ic_search</item>
+		  <item name="android:drawablePadding">8dp</item>
+		  <item name="android:paddingLeft">16dp</item>
+		  <item name="android:paddingRight">16dp</item>
+		  <item name="android:paddingTop">8dp</item>
+		  <item name="android:paddingBottom">8dp</item>
+		  <item name="android:inputType">text</item>
+		  <item name="android:textSize">16sp</item>
+		  <item name="android:maxLines">1</item>
+		  <item name="android:textColor">@color/color_black</item>
+		  <item name="android:textColorHint">@color/color_gray</item>
+	 </style>
+
+</resources>

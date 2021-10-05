@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+	 xmlns:app="http://schemas.android.com/apk/res-auto"
+	 xmlns:tools="http://schemas.android.com/tools">
+
+	 <data>
+
+	 </data>
+
+	 <com.google.android.material.card.MaterialCardView
+		  android:layout_width="match_parent"
+		  android:layout_height="match_parent"
+		  app:cardBackgroundColor="@color/blackTran"
+		  app:cardCornerRadius="@dimen/_11sdp"
+		  app:cardUseCompatPadding="true">
+
+		  <LinearLayout
+			   android:orientation="vertical"
+			   android:layout_width="match_parent"
+			   android:layout_height="match_parent">
+
+			   <androidx.constraintlayout.widget.ConstraintLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_margin="8dp"
+					android:padding="8dp">
+
+					<ImageView
+						 android:id="@+id/imgWeather"
+						 android:layout_width="44dp"
+						 android:layout_height="44dp"
+						 android:scaleType="centerCrop"
+						 app:layout_constraintStart_toStartOf="parent"
+						 app:layout_constraintTop_toTopOf="parent" />
+
+					<TextView
+						 android:id="@+id/tvCity"
+						 style="@style/FontSemiBold"
+						 android:layout_width="wrap_content"
+						 android:layout_height="wrap_content"
+						 android:layout_marginStart="8dp"
+						 android:textSize="30sp"
+						 android:textColor="@color/white"
+						 app:layout_constraintStart_toEndOf="@+id/imgWeather"
+						 app:layout_constraintTop_toTopOf="parent"
+						 tools:text="Cairo" />
+
+					<TextView
+						 android:id="@+id/tvDate"
+						 style="@style/FontRegular"
+						 android:layout_width="wrap_content"
+						 android:layout_height="wrap_content"
+						 android:layout_marginTop="2dp"
+						 android:ellipsize="end"
+						 android:maxLines="1"
+						 android:textColor="@color/white"
+						 android:textSize="10sp"
+						 app:layout_constraintStart_toStartOf="@+id/tvCity"
+						 app:layout_constraintTop_toBottomOf="@+id/tvCity"
+						 tools:ignore="SmallSp"
+						 tools:text="Fri, 7 Sep" />
+
+
+					<TextView
+						 android:id="@+id/tvTemp"
+						 style="@style/FontSemiBold"
+						 android:layout_width="wrap_content"
+						 android:layout_height="wrap_content"
+						 android:textSize="24sp"
+						 android:textColor="@color/white"
+						 app:layout_constraintBottom_toBottomOf="@+id/tvDate"
+						 app:layout_constraintEnd_toStartOf="@+id/text_label_degree"
+						 app:layout_constraintTop_toTopOf="@+id/tvCity"
+						 tools:text="28" />
+
+					<TextView
+						 android:id="@+id/text_label_degree"
+						 style="@style/FontRegular"
+						 android:layout_width="wrap_content"
+						 android:layout_height="wrap_content"
+						 android:text="@string/temp_sym"
+						 android:textColor="@color/white"
+						 android:textSize="12sp"
+						 app:layout_constraintEnd_toEndOf="parent"
+						 app:layout_constraintTop_toTopOf="@+id/tvTemp" />
+
+			   </androidx.constraintlayout.widget.ConstraintLayout>
+
+			   <include
+					android:id="@+id/rvForecast"
+					android:layout_marginStart="16dp"
+					android:layout_marginEnd="16dp"
+					layout="@layout/base_recyclerview"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent" />
+
+
+
+		  </LinearLayout>
+
+	 </com.google.android.material.card.MaterialCardView>
+</layout>

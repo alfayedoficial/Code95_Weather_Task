@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+	 xmlns:tools="http://schemas.android.com/tools">
+
+	 <data>
+		  <variable
+			   name="fragment"
+			   type="com.alialfayed.weathertask.ui.splash.view.SplashFragment" />
+	 </data>
+
+	 <ViewFlipper
+		  android:id="@+id/viewFlipper"
+		  android:layout_width="match_parent"
+		  android:layout_height="match_parent"
+		  android:layout_marginTop="5dp"
+		  tools:context=".ui.home.view.HomeFragment">
+
+		  <include
+			   android:id="@+id/containerSplash"
+			   android:layout_width="match_parent"
+			   android:layout_height="match_parent"
+			   layout="@layout/container_splash" />
+
+		  <include
+			   android:id="@+id/viewNoInternet"
+			   layout="@layout/view_no_internet" />
+
+		  <include
+			   android:id="@+id/viewNoGps"
+			   layout="@layout/view_no_gps" />
+
+		  <include
+			   android:id="@+id/viewTakePermissions"
+			   layout="@layout/view_no_permissions" />
+
+
+	 </ViewFlipper>
+</layout>

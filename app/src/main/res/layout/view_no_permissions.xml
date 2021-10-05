@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+	 xmlns:app="http://schemas.android.com/apk/res-auto"
+	 xmlns:tools="http://schemas.android.com/tools">
+
+	 <data>
+
+	 </data>
+
+	 <LinearLayout
+		  android:id="@+id/lyNoInternet"
+		  android:layout_width="match_parent"
+		  android:layout_height="match_parent"
+		  android:layout_marginStart="10dp"
+		  android:layout_marginEnd="10dp"
+		  android:gravity="center"
+		  android:orientation="vertical">
+
+		  <ImageView
+			   android:id="@+id/iconNoHave"
+			   android:layout_width="wrap_content"
+			   android:layout_height="wrap_content"
+			   android:src="@drawable/ic_no_gps"
+			   tools:ignore="ContentDescription" />
+
+		  <TextView
+			   android:id="@+id/txtH1"
+			   style="@style/FontRegular"
+			   android:layout_width="wrap_content"
+			   android:layout_height="wrap_content"
+			   android:layout_gravity="center"
+			   android:layout_marginTop="5dp"
+			   android:singleLine="true"
+			   android:text="@string/accept_location_permissions"
+			   android:textColor="@color/text_color"
+			   android:textSize="18sp" />
+
+
+		  <com.google.android.material.card.MaterialCardView
+			   android:id="@+id/cardTryAgain"
+			   android:layout_width="wrap_content"
+			   android:layout_height="wrap_content"
+			   app:cardBackgroundColor="@color/purple_500"
+			   app:cardCornerRadius="16dp"
+			   app:cardUseCompatPadding="true"
+			   app:contentPadding="@dimen/_3sdp">
+
+			   <TextView
+					android:id="@+id/txtExplore"
+					style="@style/FontRegular"
+					android:textStyle="bold"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center"
+					android:layout_marginStart="16dp"
+					android:layout_marginEnd="16dp"
+					android:text="@string/take_permissions"
+					android:textAlignment="center"
+					android:textColor="@color/white" />
+
+		  </com.google.android.material.card.MaterialCardView>
+
+
+	 </LinearLayout>
+
+</layout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+	 xmlns:tools="http://schemas.android.com/tools">
+
+	 <data>
+		  <variable
+			   name="fragment"
+			   type="com.alialfayed.weathertask.ui.details.view.CityDetailsFragment" />
+	 </data>
+
+	 <ViewFlipper
+		  android:id="@+id/viewFlipper"
+		  android:layout_width="match_parent"
+		  android:layout_height="match_parent"
+		  android:layout_marginTop="5dp"
+		  tools:context=".ui.details.view.CityDetailsFragment">
+
+		  <include
+			   android:id="@+id/viewLoading"
+			   layout="@layout/view_loading" />
+
+		  <include
+			   android:id="@+id/viewNoInternet"
+			   layout="@layout/view_no_internet" />
+
+		  <include
+			   android:id="@+id/containerDetails"
+			   layout="@layout/container_details" />
+
+
+	 </ViewFlipper>
+</layout>
