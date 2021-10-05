@@ -19,6 +19,7 @@ Create a simple mobile application that:
  ###### **Tecgnologes uses in it.**
  * Kotlin.
  * xml
+ * Navigation components 
  * MVVM Design Pattern
  * Hilt
  * Room DataBase
