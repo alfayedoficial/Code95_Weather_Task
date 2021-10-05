@@ -15,6 +15,7 @@ Create a simple mobile application that:
 ## Features
 - `Google Places`, using google places to find city and get lat and long
 - `Weather Widget`, display room data of city
+- `Chuck Logging`, Chuck is a simple in-app HTTP inspector for Android OkHttp clients, https://github.com/jgilfelt/chuck `com.readystatesoftware.chuck:library:1.1.0`
 
 ## API Key
 API keys is very secure data we can not publish it
