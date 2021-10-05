@@ -13,19 +13,23 @@ Create a simple mobile application that:
 *   Extra bonus for creating a widget.
 
 ## Features
-- `One Value Widget`, which shows one sensor value of a senseBox
-- `Plot Widget`, which shows a plot of one sensor value
+- `Google Places`, using google places to find city and get lat and long
+- `Weather Widget`, display room data of city
 - 
-*   **[Download latest debug APK here] (https://github.com/alfayedoficial/MVI_Architecture_Design/blob/master/debug/app-debug.apk)**.
+*   **[Download latest debug APK here] (https://github.com/alfayedoficial/Code95_Weather_Task/blob/master/debug/app-debug.apk)**.
 
 
-| Get Started | Loading View | Recycler View |
-| --------------- | ---------------- | ---------------- |
-| <img src="Screenshot_1.png" height="480"> | <img src="Screenshot_2.png" height="480"> |  <img src="Screenshot_3.png" height="480"> |
+| Weather Widget | Google places search |
+| --------------- | ---------------- | 
+| <img src="1.png" height="480"> | <img src="2.png" height="480"> |
 
-|  Details View  | WishList is Empty | Info Task  |
-| ------------ | ------------ | ---------------- |
-| <img src="Screenshot_4.png" height="480"> |  <img src="Screenshot_5.png" height="480"> | <img src="Screenshot_6.png" height="480"> |
+| Screen Night 1 | Screen Night 2 |
+| ---------------- | ---------------- |
+|  <img src="3.png" height="480"> |  <img src="4.png" height="480"> |
+
+|  Screen Morning 1  | Screen Morning 2 | 
+| ------------ | ------------ | 
+| <img src="5.png" height="480"> |  <img src="6.png" height="480"> |
 
 
 
