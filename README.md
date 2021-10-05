@@ -16,6 +16,11 @@ Create a simple mobile application that:
 - `Google Places`, using google places to find city and get lat and long
 - `Weather Widget`, display room data of city
 
+## API Key
+API keys is very secure data we can not publish it
+- `Google Places`, you can change google places key from \gradle.properties
+- `Open Weathermap`,  you can change Open Weathermap key from \gradle.properties
+
  ###### **Tecgnologes uses in it.**
  * Kotlin.
  * xml
