@@ -16,6 +16,25 @@ Create a simple mobile application that:
 - `Google Places`, using google places to find city and get lat and long
 - `Weather Widget`, display room data of city
 - 
+
+ ###### **Tecgnologes uses in it.**
+ * Kotlin.
+ * xml
+ * MVVM Design Pattern
+ * Hilt
+ * Room DataBase
+ * LiveData
+ * Coroutines
+ * Retrofit
+ * Google Places
+ * widget
+ 
+  ###### **Tools and IDEs uses.**
+* Android Studio
+* photoshop
+* Postman
+* Adobe XD
+* 
 *   **[Download latest debug APK here] (https://github.com/alfayedoficial/Code95_Weather_Task/blob/master/debug/app-debug.apk)**.
 
 
@@ -32,5 +51,28 @@ Create a simple mobile application that:
 | <img src="5.png" height="480"> |  <img src="6.png" height="480"> |
 
 
+## License
+Copyright (c) Open Knowledge Lab Karlsruhe
+All rights reserved.
 
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 <!-- Pixel 3 XL API 30 -->
